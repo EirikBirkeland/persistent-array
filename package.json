@@ -1,7 +1,7 @@
 {
   "name": "persistent-array",
   "version": "0.0.1",
-  "description": "An array proxy wrapper that persists any changes into localStorage in real time",
+  "description": "An array proxy wrapper for the browser that persists any changes into localStorage in real time",
   "main": "index.js",
   "scripts": {
     "test": "ava"
