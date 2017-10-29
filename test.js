@@ -1,8 +1,9 @@
 const test = require('ava')
-const index = require('index')
+const index = require('./index')
 global.localStorage = require('./lib/localStorageMock')
-const persistentArray = index([1, 2, 3])
+const persistentArray = index('myUniqueStore')
 
 test('', t => {
-    t.deepEqual([1,2,3], persistentArray)
+    persistentArray['key'] = 'value'
+    t.deepEqual({key:"value"}, persistentArray)
 })
