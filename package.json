@@ -1,0 +1,22 @@
+{
+  "name": "persistent-array",
+  "version": "0.0.1",
+  "description": "An array proxy wrapper that persists any changes into localStorage in real time",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "array",
+    "proxy",
+    "wrapper",
+    "localstorage",
+    "realtime",
+    "namespaced"
+  ],
+  "author": "Eirik Birkeland",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.23.0"
+  }
+}
